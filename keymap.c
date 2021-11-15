@@ -140,7 +140,7 @@ static void render_anim(void) {
         }
     }
 }
-void oled_task_user(void) {
+bool oled_task_user(void) {
     if (is_keyboard_master()) {
         // If you want to change the display of OLED, you need to change here
         oled_write_ln(read_layer_state(), false);
@@ -164,6 +164,7 @@ void oled_task_user(void) {
         oled_set_cursor(0, 1);
         oled_write_P(led_state.caps_lock ? PSTR("CAPS") : PSTR("       "), false);
     }
+    return false;
 }
 #endif  // OLED_DRIVER_ENABLE
 
