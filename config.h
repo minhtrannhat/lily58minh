@@ -22,11 +22,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define NO_ACTION_MACRO
 #define NO_ACTION_FUNCTION
-/* Select hand configuration */
 
 #define MASTER_LEFT
-// #define MASTER_RIGHT
 #define EE_HANDS
+#define SPLIT_USB_DETECT
 
 #define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 100
