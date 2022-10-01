@@ -16,15 +16,15 @@ RGBLIGHT_ENABLE = no       # Enable WS2812 RGB underlight.
 SWAP_HANDS_ENABLE = no      # Enable one-hand typing
 SLEEP_LED_ENABLE = no    # Breathing sleep LED during USB suspend
 
-WPM_ENABLE = yes
+# WPM_ENABLE = yes
 SPLIT_KEYBOARD = yes
-OLED_ENABLE= yes     # OLED display
+# OLED_ENABLE= yes     # OLED display
 EXTRAKEY_ENABLE = yes
 
 EXTRAFLAGS        += -flto
 BOOTLOADER = atmel-dfu
 CONFIG_USB_ACM = yes
-DEBOUNCE_TYPE = sym_eager_pk
+DEBOUNCE_TYPE = sym_defer_g
 
 # If you want to change the display of OLED, you need to change here
-SRC +=  ./lib/layer_state_reader.c
+# SRC +=  ./lib/layer_state_reader.c
