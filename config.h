@@ -20,18 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#define NO_ACTION_MACRO
-#define NO_ACTION_FUNCTION
-#define DISABLE_LEADER
-#define MASTER_LEFT
-#define EE_HANDS
-#define SPLIT_USB_DETECT
-
+#define MASTER_RIGHT
+#define SPLIT_WPM_ENABLE
 #define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 100
-
-#define NO_ACTION_ONESHOT
-
-#define SPLIT_LAYER_STATE_ENABLE
-#define SPLIT_WPM_ENABLE
-#define SPLIT_OLED_ENABLE
