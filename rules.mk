@@ -25,6 +25,3 @@ EXTRAFLAGS        += -flto
 BOOTLOADER = atmel-dfu
 CONFIG_USB_ACM = yes
 DEBOUNCE_TYPE = sym_defer_g
-
-# If you want to change the display of OLED, you need to change here
-# SRC +=  ./lib/layer_state_reader.c

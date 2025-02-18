@@ -26,14 +26,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MASTER_LEFT
 #define EE_HANDS
 #define SPLIT_USB_DETECT
-
-// #define TAPPING_FORCE_HOLD
-// #define TAPPING_TERM 100
-
-#undef OLED_ENABLE
-
 #define NO_ACTION_ONESHOT
-
 #define SPLIT_LAYER_STATE_ENABLE
-// #define SPLIT_WPM_ENABLE
-// #define SPLIT_OLED_ENABLE
